@@ -477,13 +477,15 @@ body.light hr.separator {
 }
 
 .home .bg {
-    background-image: url('./img/1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: calc(100vh - 60px);
-    z-index: 111;
-    border-radius: 15px;
+   	 background-image: url('./img/1.jpg');   
+	background-image: url('/img/1.jpg');
+	 background-image: url('img/1.jpg');
+	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: top;
+    	height: calc(100vh - 60px);
+    	z-index: 111;
+    	border-radius: 15px;
     left: 30px;
     top: 30px;
     box-shadow: 0 0 7px rgba(0, 0, 0, .9);
