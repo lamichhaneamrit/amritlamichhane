@@ -476,8 +476,9 @@ body.light hr.separator {
     top: -50%;
 }
 
-.home .bg { 
-	  background-image: url("img/1.jpg");
+.home .bg {
+	    background-image: url('/img/1.jpg');
+	 background-image: url("img/1.jpg");
 	background-size: cover;
     	background-repeat: no-repeat;
     	background-position: top;
