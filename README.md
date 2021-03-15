@@ -3,4 +3,4 @@ This is my simple Portfoilie website inspired from themeforest.net*.. Other impo
 
 
 Direct link to my wesite :
-https://lamichhaneamrit.github.io/New_Portfolie_Website/
+https://lamichhaneamrit.github.io/amritlamichhane/
