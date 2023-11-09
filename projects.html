@@ -109,29 +109,40 @@
         <span class="title-bg">Projects</span>
       
         <style>
-            body {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          margin: auto;
-          max-height: 100%;
-        }
+        body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  max-height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 
-        .grid {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 20px;
-          justify-content: center; /* Center the grid */
-          padding: 20px; /* Add padding for space on both sides */
-        }
-            .card {
-              width: 450px;
-              height: 450px;
-              background-color: #f0f0f0;
-              border-radius: 18px;
-              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              overflow: hidden;
-            }
+/* Remove fixed positioning for the icon-menu */
+.icon-menu {
+  position: relative;
+}
+
+/* Set overflow for the card container */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; /* Limit height to the viewport height */
+}
+
+.card {
+  width: 450px; /* Adjust the width as needed */
+  height:350px;
+  max-width: 450px; /* Add a max-width to prevent stretching on larger screens */
+  background-color: #f0f0f0;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
         
             .card iframe {
               width: 100%;
