@@ -236,11 +236,11 @@
 }
 
 /* Add media query for responsiveness */
-/* Add media query for responsiveness */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 660px) {
   .service-item {
     width: calc(100% - 20px); /* Make each card take full width with some margin on smaller screens */
-    min-width: 300px; /* Set a minimum width of 300px for the cards */
+    min-width: 100%; /* Set minimum width to 100% for the cards */
+    height: 250px; /* Set a fixed height for the cards */
   }
 }
 
@@ -276,6 +276,13 @@
   font-weight: bold;
 }
 
+.main-container {
+  min-height: 100vh;
+}
+
+body {
+  overflow-y: auto;
+}
 
 
 </style>
