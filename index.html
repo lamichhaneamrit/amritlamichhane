@@ -223,8 +223,20 @@
   font-weight: bold;
 }
 
+.main-img-mobile {
+  max-width: 100%; /* Adjust as needed */
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .col-lg-4 {
+    position: static; /* or position: relative; */
+    width: 100%; /* Make it take full width on smaller screens */
+  }
+}
+
 /* Add media query for responsiveness */
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 767px) {
   .service-item {
     width: 100%; /* Make each card take full width on smaller screens */
   }
