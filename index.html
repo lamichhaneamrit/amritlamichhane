@@ -100,6 +100,7 @@
     </header>
     <!-- Header Ends -->
     <!-- Main Content Starts -->
+    <body>
     <section
       class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1"
     >
@@ -195,6 +196,14 @@
   .main-container {
   overflow: auto;
 }
+
+body {
+  overflow-y: visible !important; 
+  height:100vh
+}
+
+
+
   .services-section {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +244,9 @@
   .col-lg-4 {
     position: static; /* or position: relative; */
     width: 100%; /* Make it take full width on smaller screens */
+  }
+  .btn-project, .btn-about{
+    display:none;
   }
 }
 
@@ -280,9 +292,6 @@
 }
 
 
-body {
-  overflow-y: auto !important; 
-}
 
 
 </style>
